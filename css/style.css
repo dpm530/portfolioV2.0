@@ -1,0 +1,20 @@
+/* Header */
+#header{
+   background-image: url("../images/header1.jpg");
+   background-size: cover;
+   background-position: center;
+   height:500px;
+}
+#header_nav li{
+   background-color: white;
+}
+
+/* Skills */
+#skills .row img{
+   width:100%;
+}
+
+/* Portfolio */
+#portfolio img{
+   width:100%;
+}
