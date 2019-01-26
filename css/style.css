@@ -11,17 +11,50 @@
    padding-left: 10px;
    padding-right: 10px;
 }
+#header a{
+   font-family: 'Montserrat', sans-serif;
+   color:#89878a;
+   font-size: 20px;
+}
 #header_text{
    color:white;
+   margin-top: 105px;
+}
+#header_text h1{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 65px;
 }
 #header_text p{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 28px;
+   letter-spacing: 8px;
+}
 
+/* About */
+#about{
+   font-family: 'Montserrat', sans-serif;
+}
+#about img{
+   border-radius: 20px;
+}
+#about h1{
+   margin-bottom: 35px;
+   font-size: 50px;
+}
+#about p{
+   text-align: justify;
+   font-size: 22px;
 }
 
 /* Skills */
+#skills h1{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 50px;
+}
 #skills img{
-   width: 130px;
-   height: 130px;
+   width: 125px;
+   height: 125px;
    padding:5px;
 }
 #certification_img{
@@ -35,11 +68,36 @@
 }
 
 /* Portfolio */
+#portfolio h1{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 50px;
+}
+#portfolio nav{
+   font-family: 'Montserrat', sans-serif;
+}
+#portfolio a{
+   font-family: 'Montserrat', sans-serif;
+}
+#portfolio p{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+}
 #portfolio img{
    width:100%;
 }
 
 /* Contact */
+#contact h1{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 50px;
+}
+#contact p{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+}
+#contact nav{
+   font-family: 'Montserrat', sans-serif;
+}
 #contact a.fa{
    padding: 20px;
    font-size: 100px;
@@ -72,7 +130,10 @@
 /* Footer */
 footer{
    background-color: #20242f;
+   padding-top: 10px;
 }
 footer p{
+   font-family: 'Montserrat', sans-serif;
    color:#6d6f78;
+   font-size: 15px;
 }
