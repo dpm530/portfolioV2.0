@@ -3,15 +3,35 @@
    background-image: url("../images/header1.jpg");
    background-size: cover;
    background-position: center;
-   height:500px;
+   height:600px;
 }
-nav ul{
+#header nav ul{
    background-color: white;
+   border-radius: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+#header_text{
+   color:white;
+}
+#header_text p{
+
 }
 
 /* Skills */
-#skills .row img{
-   width:100%;
+#skills img{
+   width: 130px;
+   height: 130px;
+   padding:5px;
+}
+#certification_img{
+   border:2px solid #0000001a;
+   border-radius: 10px;
+   padding: 10px 0px 10px 0px;
+}
+#certification_img img{
+   width: 165px;
+   height: 165px;
 }
 
 /* Portfolio */
