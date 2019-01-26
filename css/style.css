@@ -5,7 +5,7 @@
    background-position: center;
    height:500px;
 }
-#header_nav li{
+nav ul{
    background-color: white;
 }
 
@@ -17,4 +17,42 @@
 /* Portfolio */
 #portfolio img{
    width:100%;
+}
+
+/* Contact */
+#contact a.fa{
+   padding: 20px;
+   font-size: 100px;
+   width: 100%;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+   border-radius: 5%;
+}
+.fa:hover {
+   opacity: 0.7;
+}
+.fa-github {
+   background: black;
+   color: white;
+}
+.fa-linkedin {
+   background: #007bb5;
+   color: white;
+}
+.fa-envelope {
+   background: #55ACEE;
+   color: white;
+}
+.fa-file-pdf-o{
+   background: #dd4b39;
+   color: white;
+}
+
+/* Footer */
+footer{
+   background-color: #20242f;
+}
+footer p{
+   color:#6d6f78;
 }
