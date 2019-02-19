@@ -16,27 +16,34 @@
 
       <div id="header" class="container-fluid">
 
-         <nav class="navbar navbar-expand-lg justify-content-center">
-            <ul class="navbar-nav">
-               <li class="nav-item">
-                  <a class="nav-link" href="#header">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Resume</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-               </li>
-            </ul>
+         <nav class="navbar navbar-expand-lg">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#header">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
          </nav>
 
          <div id="header_text" class="container text-center">
@@ -46,17 +53,17 @@
 
       </div>
 
-      <div id="about" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+      <div id="about" class="container-fluid">
          <div class="container text-center">
             <h1>About</h1>
          </div>
          <div class="container">
             <div class="row">
-               <div class="col-4">
-                  <img src="images/about1.jpg" alt="" style="width:100%;" >
-               </div>
-               <div class="col-8">
+               <div class="col-12 col-md-7">
                   <p>I’m a junior software developer with a background in sales. I enjoy new challenges and feel passionate about learning new skills. I’m a problem solver who writes clean, robust code. Most of my development experience revolves around web technologies, including everything from designing, building, testing and deploying full-stack applications. I am a goal-driven team player who believes in open communication for efficient collaboration.  I’m currently looking for a position as a software developer.</p>
+               </div>
+               <div class="col-12 col-md-5 text-center">
+                  <img src="images/about1.jpg" alt="">
                </div>
             </div>
          </div>
@@ -64,70 +71,70 @@
 
       <hr>
 
-      <div id="skills" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+      <div id="skills" class="container-fluid">
 
          <div class="container">
             <div class="page-header text-center">
                <h1>Skills</h1>
-            </div><br>
-            <div class="container text-center">
+            </div>
+            <div id="technologies" class="container text-center">
                <div class="row">
-                  <div class="col-1"></div>
-                  <div class="col-2">
+                  <div class="col-md-1"></div>
+                  <div class="col-6 col-md-2">
                      <img src="images/ruby.png" alt="">
                   </div>
-                  <div class="col-2">
+                  <div class="col-6 col-md-2">
                      <img src="images/rails.png" alt="">
                   </div>
-                  <div class="col-2">
+                  <div class="col-6 col-md-2">
                      <img src="images/javascript.jpg" alt="">
                   </div>
-                  <div class="col-2">
+                  <div class="col-6 col-md-2">
                      <img src="images/css.png" alt="">
                   </div>
-                  <div class="col-2">
+                  <div class="col-6 col-md-2">
                      <img src="images/html.png" alt="">
                   </div>
-                  <div class="col-1"></div>
+                  <div class="col-md-1"></div>
                </div>
                <div class="row">
-                  <div class="col-1"></div>
-                  <div class="col-2">
+                  <div class="col-md-1"></div>
+                  <div class="col-6 col-md-2">
                      <img src="images/postgresql.png" alt="">
                   </div>
-                  <div class="col-2">
+                  <div class="col-6 col-md-2">
                      <img src="images/mysql.jpg" alt="">
                   </div>
-                  <div class="col-2">
+                  <div class="col-6 col-md-2">
                      <img src="images/aws.png" alt="">
                   </div>
-                  <div class="col-2">
+                  <div class="col-6 col-md-2">
                      <img src="images/github.svg" alt="">
                   </div>
-                  <div class="col-2">
+                  <div class="col-6 col-md-2">
                      <img src="images/git.png" alt="">
                   </div>
-                  <div class="col-1"></div>
+                  <div class="col-md-1"></div>
                </div>
             </div>
-         </div><br><br>
+         </div>
          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-4">
+            <div class="col-md-2"></div>
+            <div id="certifications" class="col-12 col-md-4">
                <h1>Certifications:</h1>
             </div>
-            <div id="certification_img" class="col-4 text-center">
+            <div id="certification_img" class="col-12 col-md-4 text-center">
                <img src="images/cloud_practitioner.png" alt="">
                <img src="images/solutions_architect_associate.png" alt="">
             </div>
-            <div class="col-2"></div>
+            <div class="col-md-2"></div>
          </div>
 
       </div>
 
       <hr>
 
-      <div id="portfolio" class="container-fluid "style="padding-top:70px;padding-bottom:70px;">
+      <!-- <div id="portfolio" class="container-fluid "style="padding-top:70px;padding-bottom:70px;">
 
          <div id="freelance_projects" class="container-fluid">
             <div class="container text-center">
@@ -209,9 +216,9 @@
 
       </div>
 
-      <hr>
+      <hr> -->
 
-      <div id="contact" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+      <div id="contact" class="container-fluid">
          <div class="container text-center">
             <h1>Let's get in touch!</h1>
             <p>I'm currently looking for work in the greater Austin area.</p>
@@ -219,30 +226,30 @@
          <br><br>
          <div class="container">
             <div class="row">
-               <div class="col-6">
+               <div class="col-12 col-md-6">
                   <form class="" action="index.html" method="">
 
                      <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                            <div class="form-group">
                               <input type="text" name="name" class="form-control" placeholder="Your Name">
                            </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                            <div class="form-group">
                               <input type="text" name="name" class="form-control" placeholder="Your Email">
                            </div>
                         </div>
                      </div>
                      <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 col-md-12">
                            <div class="form-group">
                               <input type="text" name="name" class="form-control" placeholder="Subject">
                            </div>
                         </div>
                      </div>
                      <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 col-md-12">
                            <div class="form-group">
                               <textarea class="form-control" rows="8" cols="80"></textarea>
                            </div>
@@ -252,7 +259,7 @@
 
                   </form>
                </div>
-               <div class="col-6">
+               <div class="col-12 col-md-6">
                   <iframe width="100%" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLwPMoJm1RIYRetVp1EtGm10&key=AIzaSyBAmekZto3aA7m0lJpQaN3sut4_yF2UMq8" allowfullscreen></iframe>
                </div>
             </div>
@@ -262,11 +269,11 @@
       <footer class="container-fluid text-center">
          <div class="container">
             <div class="row">
-               <div class="col-1"></div>
-               <div class="col-10">
-                  <p>Copyright &copy; All Rights Reserved 2018 | Design & Development by Daniel Palacios </p>
+               <div class="col-md-1"></div>
+               <div class="col-12 col-md-10">
+                  <p>Copyright &copy; All Rights Reserved 2018 | Design & Development by IPQ, LLC</p>
                </div>
-               <div class="col-1"></div>
+               <div class="col-md-1"></div>
             </div>
          </div>
       </footer>

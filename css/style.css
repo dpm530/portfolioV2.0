@@ -1,4 +1,6 @@
-/* Header */
+/*------------------------------------------
+   Header Section
+--------------------------------------------*/
 #header{
    background-image: url("../images/header1.jpg");
    background-size: cover;
@@ -10,6 +12,8 @@
    border-radius: 20px;
    padding-left: 10px;
    padding-right: 10px;
+   margin-left:auto;
+   margin-right:auto;
 }
 #header a{
    font-family: 'Montserrat', sans-serif;
@@ -18,25 +22,45 @@
 }
 #header_text{
    color:white;
-   margin-top: 105px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 #header_text h1{
    font-family: 'Montserrat', sans-serif;
    font-weight: 700;
-   font-size: 65px;
+   font-size: 80px;
 }
 #header_text p{
    font-family: 'Montserrat', sans-serif;
-   font-size: 28px;
-   letter-spacing: 8px;
+   font-size: 35px;
+   letter-spacing: 10px;
 }
 
-/* About */
+@media screen and (max-width: 415px){
+   #header button{
+      background-color: white;
+      margin-left:auto;
+      margin-right:auto;
+   }
+   #header button span{
+      background-color: #3d90c6;
+      border-radius: 50%;
+   }
+}
+
+/*------------------------------------------
+   About Section
+--------------------------------------------*/
 #about{
    font-family: 'Montserrat', sans-serif;
+   padding-top: 80px;
+   padding-bottom: 80px;
 }
 #about img{
    border-radius: 20px;
+   width:80%;
 }
 #about h1{
    margin-bottom: 35px;
@@ -47,7 +71,25 @@
    font-size: 22px;
 }
 
-/* Skills */
+/*-------------------------------
+   Skills Section
+---------------------------------*/
+#skills{
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+#skills .page-header{
+   margin-bottom: 40px;
+}
+#skills .container{
+   margin-bottom: 60px;
+}
+#skills #certifications{
+   margin-top: 5%;
+}
+#technologies .row{
+   margin-bottom: 10px;
+}
 #skills h1{
    font-family: 'Montserrat', sans-serif;
    font-size: 50px;
@@ -67,7 +109,13 @@
    height: 165px;
 }
 
-/* Portfolio */
+/*------------------------------------------
+   Portfolio Section
+--------------------------------------------*/
+#portfolio{
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
 #portfolio h1{
    font-family: 'Montserrat', sans-serif;
    font-size: 50px;
@@ -86,7 +134,13 @@
    width:100%;
 }
 
-/* Contact */
+/*------------------------------------------
+   Contact Section
+--------------------------------------------*/
+#contact{
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
 #contact h1{
    font-family: 'Montserrat', sans-serif;
    font-size: 50px;
@@ -127,7 +181,9 @@
    color: white;
 }
 
-/* Footer */
+/*------------------------------------------
+   Footer Section
+--------------------------------------------*/
 footer{
    background-color: #20242f;
    padding-top: 10px;
