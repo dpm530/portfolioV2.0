@@ -7,6 +7,9 @@
    background-position: center;
    height:600px;
 }
+#header .navbar{
+   z-index: 10;
+}
 #header nav ul{
    background-color: white;
    border-radius: 20px;
@@ -48,6 +51,15 @@
       background-color: #3d90c6;
       border-radius: 50%;
    }
+   #header_text{
+      top: 40%;
+   }
+   #header_text h1{
+      font-size: 40px;
+   }
+   #header_text p{
+      font-size: 20px;
+   }
 }
 
 /*------------------------------------------
@@ -69,6 +81,12 @@
 #about p{
    text-align: justify;
    font-size: 22px;
+}
+
+@media screen and (max-width: 415px){
+   #about p{
+      font-size: 18px;
+   }
 }
 
 /*-------------------------------
@@ -108,30 +126,19 @@
    width: 165px;
    height: 165px;
 }
-
-/*------------------------------------------
-   Portfolio Section
---------------------------------------------*/
-#portfolio{
-   padding-top: 80px;
-   padding-bottom: 80px;
+#html_img_mobile{
+   display: none;
 }
-#portfolio h1{
-   font-family: 'Montserrat', sans-serif;
-   font-size: 50px;
-}
-#portfolio nav{
-   font-family: 'Montserrat', sans-serif;
-}
-#portfolio a{
-   font-family: 'Montserrat', sans-serif;
-}
-#portfolio p{
-   font-family: 'Montserrat', sans-serif;
-   font-size: 18px;
-}
-#portfolio img{
-   width:100%;
+@media screen and (max-width: 415px){
+   #certification_img{
+      border:none;
+   }
+   #html_img_mobile{
+      display: inline-block;
+   }
+   #html_img{
+      display: none;
+   }
 }
 
 /*------------------------------------------
@@ -180,6 +187,14 @@
    background: #dd4b39;
    color: white;
 }
+@media screen and (max-width: 415px){
+   #contact_form{
+      margin-bottom: 20px;
+   }
+   #contact{
+      padding-bottom: 60px;
+   }
+}
 
 /*------------------------------------------
    Footer Section
@@ -193,3 +208,4 @@ footer p{
    color:#6d6f78;
    font-size: 15px;
 }
+@media screen and (max-width: 415px){}
