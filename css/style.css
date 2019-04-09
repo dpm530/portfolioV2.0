@@ -2,7 +2,7 @@
    Header Section
 --------------------------------------------*/
 #header{
-   background-image: url("../images/header1.jpg");
+   background-image: url("../img/header1.jpg");
    background-size: cover;
    background-position: center;
    height:600px;
